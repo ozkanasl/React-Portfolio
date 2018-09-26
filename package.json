@@ -1,0 +1,35 @@
+{
+  "name": "semantic-react-portfolio",
+  "version": "0.1.0",
+  "description": "React Portfolio",
+  "author": "Ozkan Aslanbakan",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-pose": "^3.3.3",
+    "react-pose-text": "0.2.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "semantic-ui-css": "^2.3.3",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-babel": "4.1.1",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx": "0.0.2",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-lodash": "2.4.4",
+    "eslint-plugin-react": "7.1.0",
+    "eslint-watch": "3.1.2"
+  }
+}
