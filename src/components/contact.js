@@ -136,8 +136,8 @@ class Contact extends Component {
                   control={TextArea} required onChange={this.handleGetText}
                   label="About" placeholder="Write here..." error={this.state.textmeError} />
               </Form.Field>
-              <Message success header="Form Completed" content="You're all signed up for the newsletter" />
-              <Message error header="Action Forbidden" content="You can only sign up for an account once with a given e-mail address." />
+              <Message success header="Message Me!" content="Complete the fields and deliver message ! " />
+              <Message error header="Error" content="Please complete all the fields" />
               <Button
                 positive icon="checkmark" labelPosition="right"
                 content="Submit" onClick={this.handleSubmitContactForm} />

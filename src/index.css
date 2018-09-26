@@ -173,3 +173,18 @@ a.item:hover{
 .ui.inverted.menu .active.item{
   background-color:rgb(111, 44, 44)!important;
 }
+@media only screen and (max-width: 600px) {
+  .about-text p {
+    margin-bottom: 15px;
+    color: #eee;
+    margin: 9px!important;
+    font-size:13px!important;
+  }
+  .ui.horizontal.divider{
+    font-size:16px!important;
+    margin-bottom:-30px;
+    }
+  .ui.grid>.column:only-child, .ui.grid>.row>.column:only-child{
+    padding-bottom: 30px;
+  }
+}
