@@ -11,7 +11,7 @@ body {
   background-color:transparent!important;
 }
 .ui.inverted.menu .item, .ui.inverted.menu .item>a:not(.ui){
-  margin:20px!important;
+  padding:20px!important;
   color: rgba(255,255,255,.9)!important;
 }
 .about-text{
@@ -160,4 +160,16 @@ body {
 }
 .ui.visible.left.overlay.sidebar{
   background-color: #14507d!important;
+}
+.ui.menu .item:before{
+  width: 0px!important
+}
+a.item:hover{
+  background-color:rgb(111, 44, 44)!important;
+}
+.ui[class*="right labeled"].icon.button{
+  float:right;
+}
+.ui.inverted.menu .active.item{
+  background-color:rgb(111, 44, 44)!important;
 }

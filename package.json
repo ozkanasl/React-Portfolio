@@ -1,7 +1,7 @@
 {
   "name": "semantic-react-portfolio",
   "version": "0.1.0",
-  "description": "Cvify admin repo",
+  "description": "React Portfolio",
   "author": "Ozkan Aslanbakan",
   "private": true,
   "dependencies": {

@@ -2,11 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import _ from "lodash";
 import { Container, Sidebar, Menu, Icon, Responsive } from "semantic-ui-react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Routes from "./routes";
 
 
-// Mobile Sidebar decleration
 const NavBarMobile = ({
   children,
   ownerHeader,
@@ -101,20 +100,20 @@ const ownerHeader = [
 ];
 const portfolioNavItems = [
   {
-    as: Link,
+    as: NavLink,
     content: "<Resume/>",
     key: "Resume",
     to: "/resume"
   },
-  { as: Link,
+  { as: NavLink,
     content: "<About Me/>",
     key: "About Me",
     to: "/aboutMe" },
-  { as: Link,
+  { as: NavLink,
     content: "<Projects/>",
     key: "Projects",
     to: "/projects" },
-  { as: Link,
+  { as: NavLink,
     content: "<Contact/>",
     key: "contact",
     to: "/contact" }
