@@ -1,14 +1,14 @@
+<h1>React - Semantic UI Portfolio App</h1>
 
-React - Semantic UI Portfolio App
-
-#React SemanticUI Costimizable Portfolio Website
-This project is a personal website/portfolio starter. It includes all of the boilerplate code necessary for setting up React and responsive design with React Semantic.
+<h4>#React SemanticUI Costimizable Portfolio Website</h4>
+<p>This project is a personal website/portfolio starter. It includes all of the boilerplate code necessary for setting up React and responsive design with React Semantic.</p>
 
 
-To run the app locally:
-
-git clone https://github.com/ozkanasl/React-Portfolio.git
-cd react-example
-npm install
-npm start
-open http://localhost:8080
+<p>To run the app locally:</p>
+<ul>
+   <li>git clone https://github.com/ozkanasl/React-Portfolio.git </li>
+   <li>cd react-example</li>
+   <li>npm install</li>
+   <li>npm start</li>
+   <li>open http://localhost:8080</li>
+ </ul>
