@@ -7,7 +7,7 @@
 <p>To run the app locally:</p>
 <ul>
    <li>git clone https://github.com/ozkanasl/React-Portfolio.git </li>
-   <li>cd react-example</li>
+   <li>cd 'root files'</li>
    <li>npm install</li>
    <li>npm start</li>
    <li>open http://localhost:8080</li>
