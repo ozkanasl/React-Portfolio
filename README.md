@@ -10,5 +10,5 @@
    <li>cd 'root files'</li>
    <li>npm install</li>
    <li>npm start</li>
-   <li>open http://localhost:8080</li>
+   <li>open http://localhost:8000</li>
  </ul>
